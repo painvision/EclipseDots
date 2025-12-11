@@ -1,15 +1,12 @@
-# Default keybinds
+# Basic controls
 
 `⌘ Super + ENTER ` - Terminal (kitty)
-
-`⌘ Super + R ` - App launcher
-
-`⌘ Super + E ` - File explorer (nemo)
-
 
 `⌘ Super + Q ` - Close an app
 
 `⌘ Super + T ` - Toggle floating mode
+
+`⌘ Super + R ` - App launcher
 
 `⌘ Super + (1-9) ` - Focus on (1-9) workspace
 
@@ -21,9 +18,9 @@
 
 `⌘ Super + (arrow keys)` - Moves focus
 
-`⌘ Super + K` - Swaps windows
+`⌘ Super + SHIFT + R` - Reload Hyprland
 
-`⌘ Super + B` - Opens firefox
+`⌘ Super + K` - Swaps windows
 
 `⌘ Super + J` - Splits windows
 
@@ -33,6 +30,10 @@
 
 `⌘ Super + F` or `F11` - Fullscreen toggle
 
+`PrtSc` - Full screenshot
+
+# Advanced controls
+
 `⌘ Super + P ` - Toggle pseudo mode
 
 `⌘ Super + H ` - Move in scratchpad
@@ -40,6 +41,24 @@
 `⌘ Super + SHIFT + H ` - Move window in a scratchpad
 
 `⌘ Super + D` - Toggle bar
+
+`⌘ Super + End` or `CTRL + SHIFT + ESC` - Process manager (btop)
+
+`⌘ Super + I` - Zooms in
+
+`⌘ Super + O` - Zooms out
+
+`⌘ Super + SHIFT + (mouse scroll)` - Zooms screen
+
+`⌘ Super + (mouse scroll)` - Scrolls existing workspaces
+
+`⌘ Super + CTRL + (mouse scroll)` - Scrolls all workspaces
+
+`⌘ Super + (extra mouse buttons)` - Switch workspaces
+
+# Useful tools
+
+`⌘ Super + Tab` - Toggle overview
 
 `⌘ Super + C ` - Calculator
 
@@ -57,27 +76,11 @@
 
 `⌘ Super + PrtSc` - Fancy screenshot
 
-`PrtSc` - Full screenshot
-
-`⌘ Super + End` or `CTRL + SHIFT + ESC` - Process manager (btop)
-
-`⌘ Super + SHIFT + N ` - Toggle 'Do Not Disturb' mode
-
-`⌘ Super + CTRL + N ` - Clear all notifications
-
-`⌘ Super + I` - Zooms in
-
-`⌘ Super + O` - Zooms out
-
-`⌘ Super + SHIFT + (mouse scroll)` - Zooms screen
-
-`⌘ Super + (mouse scroll)` - Scrolls existing workspaces
-
-`⌘ Super + CTRL + (mouse scroll)` - Scrolls all workspaces
-
 `⌘ Super + ALT + G` - Game Mode
 
-`⌘ Super + SHIFT + R` - Game Mode
+`⌘ Super + Period "."` - Emoji picker
+
+# Power profiles for laptops
 
 `⌘ Super + CTRL + S` - Eco power profile
 
@@ -85,11 +88,25 @@
 
 `⌘ Super + CTRL + P` - Performance power profile
 
+# Applications
+
+`⌘ Super + E ` - File explorer (nemo)
+
+`⌘ Super + B` - Opens firefox
+
+# Notification management
+
+`⌘ Super + SHIFT + N ` - Toggle 'Do Not Disturb' mode
+
+`⌘ Super + CTRL + N ` - Clear all notifications
+
+# Wallpaper management
+
 `⌘ Super + CTRL + w` - Toggle wallpaper picker
 
 `⌘ Super + SHIFT + W` - Random wallpaper
 
-`⌘ Super + CTRL + S` - Power saving mode
+# Mouse controlling with keyboard
 
 `ALT + (arrow keys)` - Cursor controlling
 
@@ -98,10 +115,3 @@
 `ALT + BACKSPACE` - Left mouse button click
 
 `ALT + CTRL + BACKSPACE` - Right mouse button click
-
-`⌘ Super + Tab` - Toggle overview
-
-`⌘ Super + Period "."` - Emoji picker
-
-`⌘ Super + (extra mouse buttons)` - Switch workspaces
-
