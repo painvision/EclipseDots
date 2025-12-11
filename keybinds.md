@@ -23,6 +23,8 @@
 
 `⌘ Super + K` - Swaps windows
 
+`⌘ Super + B` - Opens firefox
+
 `⌘ Super + J` - Splits windows
 
 `⌘ Super + LMB` - Move a window
@@ -34,6 +36,8 @@
 `⌘ Super + P ` - Toggle pseudo mode
 
 `⌘ Super + H ` - Move in scratchpad
+
+`⌘ Super + SHIFT + H ` - Move window in a scratchpad
 
 `⌘ Super + D` - Toggle bar
 
@@ -70,3 +74,34 @@
 `⌘ Super + (mouse scroll)` - Scrolls existing workspaces
 
 `⌘ Super + CTRL + (mouse scroll)` - Scrolls all workspaces
+
+`⌘ Super + ALT + G` - Game Mode
+
+`⌘ Super + SHIFT + R` - Game Mode
+
+`⌘ Super + CTRL + S` - Eco power profile
+
+`⌘ Super + CTRL + B` - Balanced power profile
+
+`⌘ Super + CTRL + P` - Performance power profile
+
+`⌘ Super + CTRL + w` - Toggle wallpaper picker
+
+`⌘ Super + SHIFT + W` - Random wallpaper
+
+`⌘ Super + CTRL + S` - Power saving mode
+
+`ALT + (arrow keys)` - Cursor controlling
+
+`ALT + CTRL (arrow keys)` - Precise cursor controlling
+
+`ALT + BACKSPACE` - Left mouse button click
+
+`ALT + CTRL + BACKSPACE` - Right mouse button click
+
+`⌘ Super + Tab` - Toggle overview
+
+`⌘ Super + Period "."` - Emoji picker
+
+`⌘ Super + (extra mouse buttons)` - Switch workspaces
+
