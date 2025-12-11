@@ -6,7 +6,7 @@
 # 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧 𝐬𝐜𝐫𝐢𝐩𝐭
 
 > [!IMPORTANT]
-> Be careful, this script not well tested and may cause issues. Make sure to have kitty and/or hypr configs backup
+> Be careful, this script is NOT well tested and MAY cause issues. PR's are welcome, make sure to have kitty and/or hypr configs backup
 ```
 curl -L https://raw.githubusercontent.com/pabcihba/EclipseDots/main/install_arch.sh | bash
 ```
