@@ -1,6 +1,25 @@
 #!/usr/bin/env bash
 set -e
 
+confirm_action() {
+    echo ""
+    echo ""
+    read -p "[!] Make sure to have hypr/kitty configuration backups. Are you sure you want to proceed installation? [Y/n]: " choice
+    case "$choice" in
+        y|Y )
+            echo "[+] Continuing"
+            ;;
+        n|N )
+            echo "[-] Cancelled"
+            exit 1
+            ;;
+        * )
+            echo "Invalid input. Please enter 'Y' or 'n'."
+            confirm_action
+            ;;
+    esac
+}
+
 REPO_URL="https://github.com/pabcihba/EclipseDots"
 INSTALL_DIR="$HOME/.eclipsedots"
 SOURCE_CONFIG="$INSTALL_DIR/dots/.config"
@@ -38,12 +57,14 @@ yay -S --needed --noconfirm \
     wlsunset xdg-desktop-portal python3 evolution-data-server \
     polkit-kde-agent cmake meson cpio pkg-config git gcc matugen noctalia-shell
 
+confirm_action
+
 if [ ! -d "$INSTALL_DIR" ]; then
     log "Cloning repo into $INSTALL_DIR..."
     git clone "$REPO_URL" "$INSTALL_DIR"
 else
     log "Updating repo..."
-    git -C "$INSTALL_DIR" pull --ff-only
+    git -C "$INSTALL_DIR" pull
 fi
 
 log "Installing configuration files..."
