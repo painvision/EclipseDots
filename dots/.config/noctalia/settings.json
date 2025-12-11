@@ -1,0 +1,432 @@
+{
+    "appLauncher": {
+        "customLaunchPrefix": "",
+        "customLaunchPrefixEnabled": false,
+        "enableClipPreview": true,
+        "enableClipboardHistory": true,
+        "pinnedExecs": [
+        ],
+        "position": "top_center",
+        "sortByMostUsed": true,
+        "terminalCommand": "kitty -e",
+        "useApp2Unit": false,
+        "viewMode": "list"
+    },
+    "audio": {
+        "cavaFrameRate": 60,
+        "externalMixer": "pwvucontrol || pavucontrol",
+        "mprisBlacklist": [
+        ],
+        "preferredPlayer": "spotify",
+        "visualizerQuality": "low",
+        "visualizerType": "linear",
+        "volumeOverdrive": true,
+        "volumeStep": 2
+    },
+    "bar": {
+        "backgroundOpacity": 0.47000000000000003,
+        "capsuleOpacity": 0.5,
+        "density": "default",
+        "exclusive": true,
+        "floating": false,
+        "marginHorizontal": 0.23,
+        "marginVertical": 0.25,
+        "monitors": [
+            "eDP-1"
+        ],
+        "outerCorners": true,
+        "position": "top",
+        "showCapsule": true,
+        "widgets": {
+            "center": [
+                {
+                    "characterCount": 5,
+                    "followFocusedScreen": false,
+                    "hideUnoccupied": false,
+                    "id": "Workspace",
+                    "labelMode": "index"
+                }
+            ],
+            "left": [
+                {
+                    "colorizeDistroLogo": true,
+                    "colorizeSystemIcon": "none",
+                    "customIconPath": "",
+                    "enableColorization": false,
+                    "icon": "",
+                    "id": "ControlCenter",
+                    "useDistroLogo": true
+                },
+                {
+                    "hideMode": "hidden",
+                    "hideWhenIdle": false,
+                    "id": "MediaMini",
+                    "maxWidth": 300,
+                    "scrollingMode": "hover",
+                    "showAlbumArt": false,
+                    "showArtistFirst": true,
+                    "showProgressRing": true,
+                    "showVisualizer": true,
+                    "useFixedWidth": false,
+                    "visualizerType": "mirrored"
+                }
+            ],
+            "right": [
+                {
+                    "displayMode": "onhover",
+                    "id": "WiFi"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Bluetooth"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Volume"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Brightness"
+                },
+                {
+                    "blacklist": [
+                    ],
+                    "colorizeIcons": false,
+                    "drawerEnabled": false,
+                    "id": "Tray",
+                    "pinned": [
+                        "Telegram Desktop"
+                    ]
+                },
+                {
+                    "displayMode": "forceOpen",
+                    "id": "KeyboardLayout"
+                },
+                {
+                    "customFont": "",
+                    "formatHorizontal": "h:mm",
+                    "formatVertical": "HH mm",
+                    "id": "Clock",
+                    "useCustomFont": false,
+                    "usePrimaryColor": true
+                },
+                {
+                    "hideWhenZero": true,
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "brightnessStep": 2,
+        "enableDdcSupport": true,
+        "enforceMinimum": true
+    },
+    "calendar": {
+        "cards": [
+            {
+                "enabled": true,
+                "id": "calendar-header-card"
+            },
+            {
+                "enabled": true,
+                "id": "calendar-month-card"
+            },
+            {
+                "enabled": false,
+                "id": "timer-card"
+            },
+            {
+                "enabled": true,
+                "id": "weather-card"
+            }
+        ]
+    },
+    "changelog": {
+        "lastSeenVersion": ""
+    },
+    "colorSchemes": {
+        "darkMode": true,
+        "generateTemplatesForPredefined": true,
+        "manualSunrise": "09:00",
+        "manualSunset": "19:00",
+        "matugenSchemeType": "scheme-tonal-spot",
+        "predefinedScheme": "Noctalia (default)",
+        "schedulingMode": "off",
+        "useWallpaperColors": true
+    },
+    "controlCenter": {
+        "cards": [
+            {
+                "enabled": true,
+                "id": "profile-card"
+            },
+            {
+                "enabled": true,
+                "id": "media-sysmon-card"
+            },
+            {
+                "enabled": true,
+                "id": "audio-card"
+            },
+            {
+                "enabled": true,
+                "id": "shortcuts-card"
+            },
+            {
+                "enabled": true,
+                "id": "weather-card"
+            }
+        ],
+        "position": "bottom_center",
+        "shortcuts": {
+            "left": [
+                {
+                    "id": "WiFi"
+                },
+                {
+                    "id": "Bluetooth"
+                },
+                {
+                    "id": "ScreenRecorder"
+                },
+                {
+                    "id": "WallpaperSelector"
+                }
+            ],
+            "right": [
+                {
+                    "id": "Notifications"
+                },
+                {
+                    "id": "PowerProfile"
+                },
+                {
+                    "id": "NightLight"
+                },
+                {
+                    "id": "KeepAwake"
+                }
+            ]
+        }
+    },
+    "dock": {
+        "backgroundOpacity": 1,
+        "colorizeIcons": false,
+        "displayMode": "auto_hide",
+        "enabled": true,
+        "floatingRatio": 0.91,
+        "monitors": [
+            "eDP-1"
+        ],
+        "onlySameOutput": true,
+        "pinnedApps": [
+            "spotify-adblock",
+            "org.telegram.desktop",
+            "firefox"
+        ],
+        "size": 0.63
+    },
+    "general": {
+        "allowPanelsOnScreenWithoutBar": true,
+        "animationDisabled": false,
+        "animationSpeed": 0.8,
+        "avatarImage": "/home/painvision/.face",
+        "compactLockScreen": false,
+        "dimmerOpacity": 0.8,
+        "enableShadows": false,
+        "forceBlackScreenCorners": true,
+        "language": "ru",
+        "lockOnSuspend": true,
+        "radiusRatio": 1.1500000000000001,
+        "scaleRatio": 0.8500000000000001,
+        "screenRadiusRatio": 0.68,
+        "shadowDirection": "bottom_right",
+        "shadowOffsetX": 2,
+        "shadowOffsetY": 3,
+        "showHibernateOnLockScreen": false,
+        "showScreenCorners": true
+    },
+    "hooks": {
+        "darkModeChange": "",
+        "enabled": true,
+        "wallpaperChange": "hellwal -i \"$1\" -g 0.4 -b 0.8; wal -i \"$1\" -s -t -e -q -n;  walogram -s1"
+    },
+    "location": {
+        "analogClockInCalendar": false,
+        "firstDayOfWeek": -1,
+        "name": "Soligorsk, BY",
+        "showCalendarEvents": true,
+        "showCalendarWeather": true,
+        "showWeekNumberInCalendar": false,
+        "use12hourFormat": false,
+        "useFahrenheit": false,
+        "weatherEnabled": true,
+        "weatherShowEffects": true
+    },
+    "network": {
+        "wifiEnabled": true
+    },
+    "nightLight": {
+        "autoSchedule": true,
+        "dayTemp": "6500",
+        "enabled": false,
+        "forced": false,
+        "manualSunrise": "06:30",
+        "manualSunset": "18:30",
+        "nightTemp": "4000"
+    },
+    "notifications": {
+        "backgroundOpacity": 0.5,
+        "criticalUrgencyDuration": 15,
+        "enableKeyboardLayoutToast": false,
+        "enabled": true,
+        "location": "bottom_right",
+        "lowUrgencyDuration": 3,
+        "monitors": [
+        ],
+        "normalUrgencyDuration": 8,
+        "overlayLayer": true,
+        "respectExpireTimeout": true
+    },
+    "osd": {
+        "autoHideMs": 2500,
+        "backgroundOpacity": 0.51,
+        "enabled": true,
+        "enabledTypes": [
+        ],
+        "location": "top",
+        "monitors": [
+        ],
+        "overlayLayer": true
+    },
+    "screenRecorder": {
+        "audioCodec": "opus",
+        "audioSource": "default_output",
+        "colorRange": "limited",
+        "directory": "/home/painvision/Videos",
+        "frameRate": 60,
+        "quality": "high",
+        "showCursor": true,
+        "videoCodec": "h264",
+        "videoSource": "portal"
+    },
+    "sessionMenu": {
+        "countdownDuration": 5000,
+        "enableCountdown": true,
+        "position": "top_center",
+        "powerOptions": [
+            {
+                "action": "lock",
+                "countdownEnabled": true,
+                "enabled": true
+            },
+            {
+                "action": "suspend",
+                "countdownEnabled": true,
+                "enabled": true
+            },
+            {
+                "action": "reboot",
+                "countdownEnabled": true,
+                "enabled": true
+            },
+            {
+                "action": "logout",
+                "countdownEnabled": true,
+                "enabled": true
+            },
+            {
+                "action": "shutdown",
+                "countdownEnabled": true,
+                "enabled": true
+            },
+            {
+                "action": "hibernate",
+                "countdownEnabled": false,
+                "enabled": true
+            }
+        ],
+        "showHeader": true
+    },
+    "settingsVersion": 26,
+    "systemMonitor": {
+        "cpuCriticalThreshold": 95,
+        "cpuPollingInterval": 3000,
+        "cpuWarningThreshold": 85,
+        "criticalColor": "#ffb4ab",
+        "diskCriticalThreshold": 90,
+        "diskPollingInterval": 3000,
+        "diskWarningThreshold": 80,
+        "memCriticalThreshold": 90,
+        "memPollingInterval": 3000,
+        "memWarningThreshold": 80,
+        "networkPollingInterval": 3000,
+        "tempCriticalThreshold": 85,
+        "tempPollingInterval": 3000,
+        "tempWarningThreshold": 80,
+        "useCustomColors": false,
+        "warningColor": "#efbd94"
+    },
+    "templates": {
+        "alacritty": false,
+        "cava": false,
+        "code": false,
+        "discord": false,
+        "emacs": false,
+        "enableUserTemplates": false,
+        "foot": false,
+        "fuzzel": false,
+        "ghostty": false,
+        "gtk": false,
+        "kcolorscheme": false,
+        "kitty": false,
+        "niri": false,
+        "pywalfox": false,
+        "qt": false,
+        "spicetify": false,
+        "telegram": false,
+        "vicinae": false,
+        "walker": false,
+        "wezterm": false
+    },
+    "ui": {
+        "fontDefault": "Google Sans",
+        "fontDefaultScale": 1,
+        "fontFixed": "DejaVu Sans Mono",
+        "fontFixedScale": 1,
+        "panelBackgroundOpacity": 1,
+        "panelsAttachedToBar": true,
+        "settingsPanelAttachToBar": true,
+        "tooltipsEnabled": true
+    },
+    "wallpaper": {
+        "directory": "/home/painvision/.config/hypr/wallpapers",
+        "enableMultiMonitorDirectories": false,
+        "enabled": true,
+        "fillColor": "#000000",
+        "fillMode": "crop",
+        "hideWallpaperFilenames": true,
+        "monitorDirectories": [
+        ],
+        "overviewEnabled": false,
+        "panelPosition": "top_center",
+        "randomEnabled": false,
+        "randomIntervalSec": 300,
+        "recursiveSearch": false,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 1,
+        "transitionType": "stripes",
+        "useWallhaven": false,
+        "wallhavenCategories": "111",
+        "wallhavenOrder": "desc",
+        "wallhavenPurity": "100",
+        "wallhavenQuery": "",
+        "wallhavenResolutionHeight": "",
+        "wallhavenResolutionMode": "atleast",
+        "wallhavenResolutionWidth": "",
+        "wallhavenSorting": "date_added"
+    }
+}
