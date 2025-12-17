@@ -21,8 +21,8 @@ confirm_action() {
 }
 
 REPO_URL="https://github.com/painvision/EclipseDots"
-INSTALL_DIR="$HOME/.eclipsedots"
-SOURCE_CONFIG="$INSTALL_DIR/dots/.config"
+INSTALL_DIR="$HOME/eclipsedots_install"
+SOURCE_CONFIG="$INSTALL_DIR/dots/config"
 TARGET_CONFIG="$HOME/.config"
 
 SOURCE_FASTFETCH="$INSTALL_DIR/dots/fastfetch"
