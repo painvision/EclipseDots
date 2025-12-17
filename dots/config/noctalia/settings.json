@@ -422,7 +422,7 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "directory": "/home/painvision/.config/hypr/wallpapers",
+        "directory": "~/wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",

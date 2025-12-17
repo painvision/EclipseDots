@@ -66,6 +66,10 @@ else
     git -C "$INSTALL_DIR" pull
 fi
 
+log "Installing wallpapers..."
+mkdir $HOME/Wallpapers
+cp -r $INSTALL_DIR/dots/wallpapers/ $HOME/
+
 log "Installing configuration files..."
 
 mkdir -p "$TARGET_CONFIG"
