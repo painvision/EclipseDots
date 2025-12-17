@@ -2,8 +2,6 @@
 set -e
 
 confirm_action() {
-    echo ""
-    echo ""
     read -p "[?] Are you sure you want to proceed? [Y/n]: " choice
     case "$choice" in
         y|Y )
@@ -125,8 +123,8 @@ confirm_action
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins ||
 hyprpm add https://github.com/virtcode/hypr-dynamic-cursors ||
-hyprpm enable hyprbars || true
-hyprpm enable dynamic-cursors || true
+hyprpm enable hyprbars ||
+hyprpm enable dynamic-cursors ||
 
 if [ -d /run/systemd/system ]; then
     log "Installing polkit agent for systemd..."
