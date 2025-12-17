@@ -70,6 +70,9 @@
                     "showVisualizer": true,
                     "useFixedWidth": false,
                     "visualizerType": "linear"
+                },
+                {
+                    "id": "plugin:update-count"
                 }
             ],
             "right": [
@@ -411,7 +414,7 @@
     "ui": {
         "fontDefault": "Google Sans",
         "fontDefaultScale": 1,
-        "fontFixed": "DejaVu Sans Mono",
+        "fontFixed": "JetBrainsMonoNL Nerd Font",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,

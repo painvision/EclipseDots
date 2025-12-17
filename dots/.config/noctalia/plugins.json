@@ -8,10 +8,19 @@
     ],
     "states": {
         "catwalk": {
-            "enabled": true
+            "enabled": false
+        },
+        "network-indicator": {
+            "enabled": false
         },
         "privacy-indicator": {
+            "enabled": false
+        },
+        "update-count": {
             "enabled": true
+        },
+        "virtual-keyboard": {
+            "enabled": false
         }
     },
     "version": 1

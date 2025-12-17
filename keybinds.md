@@ -70,9 +70,9 @@
 
 `⌘ Super + V` - Clipboard manager
 
-`⌘ Super + L` - Session menu
+`⌘ Super + L` - Lock screen
 
-`⌘ Super + SHIFT + L` - Lock screen
+`⌘ Super + SHIFT + L` - Session menu
 
 `⌘ Super + PrtSc` - Fancy screenshot
 
