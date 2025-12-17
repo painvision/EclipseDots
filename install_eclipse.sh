@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 confirm_action() {
     read -p "[?] Are you sure you want to proceed? [Y/n]: " choice
@@ -66,7 +67,8 @@ else
 fi
 
 log "Installing wallpapers..."
-cp -r $INSTALL_DIR/dots/wallpapers/ $HOME/ ||
+mkdir $HOME/Wallpapers
+cp -r $INSTALL_DIR/dots/wallpapers/ $HOME/
 
 log "Installing configuration files..."
 
