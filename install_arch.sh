@@ -4,7 +4,7 @@ set -e
 confirm_action() {
     echo ""
     echo ""
-    read -p "[!] Make sure to have hypr/kitty configuration backups. Are you sure you want to proceed installation? [Y/n]: " choice
+    read -p "[?] Are you sure you want to proceed? [Y/n]: " choice
     case "$choice" in
         y|Y )
             echo "[+] Continuing"
@@ -57,6 +57,7 @@ yay -S --needed --noconfirm \
     wlsunset xdg-desktop-portal python3 evolution-data-server \
     polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell
 
+log "Make sure to have hypr/kitty configuration backups."
 confirm_action
 
 if [ ! -d "$INSTALL_DIR" ]; then
@@ -111,17 +112,33 @@ fi
 
 hyprctl reload -q
 
-log "=== Installing screenshot utility... ==="
+log "Installing screenshot utility..."
 git clone https://github.com/jamdon2/hyprquickshot ~/.config/quickshell/hyprquickshot
 
-log "=== Installing overview... ==="
+log "Installing overview..."
 git clone https://github.com/Shanu-Kumawat/quickshell-overview ~/.config/quickshell/overview
 
 log "=== Installing hyprland plugins... ==="
-hyprpm update
-hyprpm add https://github.com/hyprwm/hyprland-plugins
-hyprpm enable hyprbars
-hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
-hyprpm enable dynamic-cursors
 
+confirm_action
+
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins ||
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors ||
+hyprpm enable hyprbars || true
+hyprpm enable dynamic-cursors || true
+
+if [ -d /run/systemd/system ]; then
+    log "Installing polkit agent for systemd..."
+    yay -S hyprpolkitagent
+    systemctl enable --user hyprpolkitagent
+else
+    echo
+    echo
+    log "=== Installation complete! ==="
+fi
+
+
+echo
+echo
 log "=== Installation complete! ==="
