@@ -55,7 +55,7 @@ yay -S --needed --noconfirm \
     hyprland kitty nemo firefox btop ydotool quickshell matugen \
     gpu-screen-recorder brightnessctl ddcutil cliphist cava \
     wlsunset xdg-desktop-portal python3 evolution-data-server \
-    polkit-kde-agent cmake meson cpio pkg-config git gcc matugen noctalia-shell
+    polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell
 
 confirm_action
 
@@ -111,9 +111,17 @@ fi
 
 hyprctl reload -q
 
-systemctl enable --user hyprpolkitagent
+log "=== Installing screenshot utility... ==="
+git clone https://github.com/jamdon2/hyprquickshot ~/.config/quickshell/hyprquickshot
+
+log "=== Installing overview... ==="
+git clone https://github.com/Shanu-Kumawat/quickshell-overview ~/.config/quickshell/overview
+
+log "=== Installing hyprland plugins... ==="
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm enable hyprbars
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm enable dynamic-cursors
 
 log "=== Installation complete! ==="
-log "Install hyprland plugins manually:"
-log "hyprpm update; hyprpm add https://github.com/virtcode/hypr-dynamic-cursors; hyprpm add https://github.com/hyprwm/hyprland-plugins; hyprpm enable dynamic-cursors; hyprpm enable hyprbars"
-log "Reboot and enjoy!"
