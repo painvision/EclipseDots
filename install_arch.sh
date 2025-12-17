@@ -140,6 +140,7 @@ else
     log "=== Installation complete! ==="
 fi
 
+qs -c noctalia-shell ipc call wallpaper random ||
 
 echo
 echo
