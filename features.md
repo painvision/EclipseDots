@@ -1,6 +1,7 @@
 ###### Nothing special, but enough to be productive
 # 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
-- fish, fastfetch and kitty configs
+- fish, fastfetch, cava and kitty configs
+> seperate `cavacolor` command for themed cava
 - **Wallpaper-based colorschemes** for everything 
 - **Overview feature** for better workspace and window management
 - Screenshot utility with eye-candy **animations**
