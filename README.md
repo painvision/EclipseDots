@@ -1,7 +1,7 @@
 > [!CAUTION]
 > That project was made as a hobby, which means there WILL be bugs and errors in YOUR installation. Be patient and [open an issue](https://github.com/pabcihba/EclipseDots/issues/new/choose) or contact me on [Telegram](https://t.me/NextTimeUsername)
 
-# 🌐 𝐄𝐜𝐥𝐢𝐩𝐬𝐞 𝐃𝐨𝐭𝐟𝐢𝐥𝐞𝐬 <sub>[𝐤𝐞𝐲𝐛𝐢𝐧𝐝𝐬 ](https://github.com/pabcihba/EclipseDots/blob/main/keybinds.md) | [𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬](https://github.com/pabcihba/EclipseDots/blob/main/features.md)</sub>
+# 🌇 𝐄𝐜𝐥𝐢𝐩𝐬𝐞 𝐃𝐨𝐭𝐟𝐢𝐥𝐞𝐬 <sub>[𝐤𝐞𝐲𝐛𝐢𝐧𝐝𝐬 ](https://github.com/pabcihba/EclipseDots/blob/main/keybinds.md) | [𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬](https://github.com/pabcihba/EclipseDots/blob/main/features.md)</sub>
 ###### 🇷🇺 [комбинации клавиш](https://github.com/pabcihba/EclipseDots/blob/main/keybinds_ru.md) | [основные функции](https://github.com/pabcihba/EclipseDots/blob/main/features_ru.md)
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d290cc48-2e5e-4e97-8e61-96c02deab740" />
 
