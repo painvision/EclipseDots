@@ -2,7 +2,9 @@
 
 set -l commands \
     "fastfetch --config arch -l .local/share/fastfetch/ascii/star.txt" \
-    "fastfetch --config arch -l .local/share/fastfetch/ascii/star2.txt"
+    "fastfetch --config arch -l .local/share/fastfetch/ascii/star2.txt" \
+    "fastfetch --config arch -l .local/share/fastfetch/ascii/saturn.txt --logo-padding-top 2"
+
 
     set -l random_command $commands[(random 1 (count $commands))]
 eval $random_command
