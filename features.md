@@ -6,8 +6,7 @@
 - **Overview feature** for better workspace and window management
 - Screenshot utility with eye-candy **animations**
 - **Window bars** like in floating window managers
-- Screen zooming
-- Gamemode
+- Screen zooming, fancy cursor, gamemode
 - Keybinds to control your mouse using keyboard
 - Some gestures for laptop users
 

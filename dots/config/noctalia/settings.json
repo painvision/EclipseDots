@@ -258,7 +258,7 @@
     "hooks": {
         "darkModeChange": "",
         "enabled": true,
-        "wallpaperChange": "hellwal -i \"$1\" -g 0.4 -b 0.8; wal -i \"$1\" -s -t -e -q -n;  walogram"
+        "wallpaperChange": "hellwal -i \"$1\" -g 0.4 -b 0.8; wal -i \"$1\" -s -t -e -q -n;  walogram -B"
     },
     "location": {
         "analogClockInCalendar": false,
