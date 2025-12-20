@@ -11,5 +11,5 @@
 > [!IMPORTANT]
 > Be careful, this script is NOT well tested and MAY cause issues. PR's are welcome, make sure to have kitty and/or hypr configs backup. Currently supporting Arch based distros
 ```
-curl -L https://raw.githubusercontent.com/painvision/EclipseDots/main/install_arch.sh > install_eclipse.sh; chmod +x install_eclipse.sh; ./install_eclipse.sh
+curl -L https://raw.githubusercontent.com/painvision/EclipseDots/main/install_arch.sh > install_eclipse.sh; sudo chmod +x install_eclipse.sh; ./install_eclipse.sh
 ```

@@ -126,6 +126,7 @@ hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins ||
 hyprpm add https://github.com/virtcode/hypr-dynamic-cursors ||
 hyprpm enable hyprbars ||
+hyprpm enable hyprwinwrap ||
 hyprpm enable dynamic-cursors ||
 
 if [ -d /run/systemd/system ]; then
