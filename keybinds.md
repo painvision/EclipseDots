@@ -72,7 +72,7 @@
 
 `⌘ Super + L` - Lock screen
 
-`⌘ Super + SHIFT + L` - Session menu
+`⌘ Super + SHIFT + L` or `⌘ SUPER + ALT + DELETE`  - Session menu
 
 `⌘ Super + PrtSc` - Fancy screenshot
 

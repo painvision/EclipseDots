@@ -72,7 +72,7 @@
 
 `⌘ Super + L` - Блокировка экрана
 
-`⌘ Super + SHIFT + L` - Выбор действий
+`⌘ Super + SHIFT + L` или `⌘ SUPER + ALT + DELETE` - Выбор действий
 
 `⌘ Super + PrtSc` - Красивый скриншот
 
