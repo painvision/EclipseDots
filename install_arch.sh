@@ -52,7 +52,7 @@ yay -S --needed --noconfirm \
     hyprland kitty nemo firefox btop ydotool quickshell matugen \
     gpu-screen-recorder brightnessctl ddcutil cliphist cava \
     wlsunset xdg-desktop-portal python3 evolution-data-server \
-    polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell gum walogram hyprcursor catppuccin-cursors-latte
+    polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell gum walogram hyprcursor catppuccin-cursors-latte glava
 
 log "Make sure to have hypr/kitty configuration backups."
 confirm_action

@@ -152,7 +152,7 @@
         "generateTemplatesForPredefined": true,
         "manualSunrise": "09:00",
         "manualSunset": "19:00",
-        "matugenSchemeType": "scheme-content",
+        "matugenSchemeType": "scheme-tonal-spot",
         "predefinedScheme": "Noctalia (default)",
         "schedulingMode": "off",
         "useWallpaperColors": true
@@ -258,7 +258,7 @@
     "hooks": {
         "darkModeChange": "",
         "enabled": true,
-        "wallpaperChange": "hellwal -i \"$1\" -g 0.4 -b 0.8; wal -i \"$1\" -s -t -e -q -n;  walogram -B"
+        "wallpaperChange": "hellwal -i \"$1\" -g 0.4 -b 0.8; cp .cache/hellwal/glava.glsl .config/glava/bars.glsl; walogram -i \"$1\" -B"
     },
     "location": {
         "analogClockInCalendar": false,
@@ -438,12 +438,12 @@
         "setWallpaperOnAllMonitors": true,
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 1,
-        "transitionType": "wipe",
+        "transitionType": "stripes",
         "useWallhaven": false,
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "",
+        "wallhavenQuery": "windows 11",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
         "wallhavenResolutionWidth": "",

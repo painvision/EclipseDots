@@ -3,3 +3,5 @@ if status is-interactive
     zoxide init fish | source
     alias cd z
 end
+
+fish_add_path /home/painvision/.spicetify
