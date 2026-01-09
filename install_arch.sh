@@ -48,13 +48,12 @@ else
     log "yay already installed."
 fi
 
-yay -S --needed --noconfirm \
-    hyprland kitty nemo firefox btop ydotool quickshell matugen \
-    gpu-screen-recorder brightnessctl ddcutil cliphist cava \
-    wlsunset xdg-desktop-portal python3 evolution-data-server \
-    polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell gum walogram hyprcursor catppuccin-cursors-latte glava
+yay -S --needed --noconfirm fish adw-gtk-theme nwg-look adwnano kate hyprland kitty nemo firefox btop ydotool quickshell matugen gpu-screen-recorder brightnessctl ddcutil cliphist cava wlsunset xdg-desktop-portal python3 evolution-data-server polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell gum walogram hyprcursor catppuccin-cursors-latte glava hellwal zoxide 
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish # Oh my fish installer
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' # Dark theme with noctalia-shell theming
 
 log "Make sure to have hypr/kitty configuration backups."
+log "ALSO make sure you currently in Hyprland session. Installer in TTY working badly."
 confirm_action
 
 if [ ! -d "$INSTALL_DIR" ]; then
@@ -123,11 +122,11 @@ log "=== Installing hyprland plugins... ==="
 confirm_action
 
 hyprpm update
-hyprpm add https://github.com/hyprwm/hyprland-plugins ||
-hyprpm add https://github.com/virtcode/hypr-dynamic-cursors ||
-hyprpm enable hyprbars ||
-hyprpm enable hyprwinwrap ||
-hyprpm enable dynamic-cursors ||
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm enable hyprbars
+hyprpm enable hyprwinwrap
+hyprpm enable dynamic-cursors
 
 if [ -d /run/systemd/system ]; then
     log "Installing polkit agent for systemd..."
