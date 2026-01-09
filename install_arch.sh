@@ -139,6 +139,7 @@ else
 fi
 
 qs -c noctalia-shell ipc call wallpaper random ||
+rm .config/fish/conf.d/uv.env.fish
 
 echo
 echo
