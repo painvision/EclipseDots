@@ -50,6 +50,7 @@ fi
 
 yay -S --needed --noconfirm fish adw-gtk-theme nwg-look adwnano kate hyprland kitty nemo firefox btop ydotool quickshell matugen gpu-screen-recorder brightnessctl ddcutil cliphist cava wlsunset xdg-desktop-portal python3 evolution-data-server polkit-kde-agent cmake meson cpio pkg-config git gcc noctalia-shell gum walogram hyprcursor catppuccin-cursors-latte glava hellwal zoxide 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish # Oh my fish installer
+omf install clearance
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' # Dark theme with noctalia-shell theming
 
 log "Make sure to have hypr/kitty configuration backups."
